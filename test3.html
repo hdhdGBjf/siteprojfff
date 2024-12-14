@@ -269,7 +269,7 @@ function checkAnswers() {
         resultContainer.textContent = "Вы правильно ответили на все вопросы!";
         return true; // Все правильно
     } else {
-        resultContainer.textContent = `Вы ответили правильно на ${correctAnswers} из ${questions[currentQuestionIndex].correct.length} вопросов.`;
+        resultContainer.textContent = `Вы ответили правильно на ${correctAnswers} вопроса.`;
         return false; // Ответы не все правильные
     }
 }
